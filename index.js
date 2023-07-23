@@ -6,6 +6,7 @@
             button.addEventListener('click', function round() {
                 let playerSelection = button.value
                 console.log(playerSelection)
+                return playerSelection
             });
         });
 
