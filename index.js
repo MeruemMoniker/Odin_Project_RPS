@@ -4,7 +4,8 @@
         
         buttons.forEach((button) => {
             button.addEventListener('click', function round() {
-                const playerSelection = button.value
+                let playerSelection = button.value
+                console.log(playerSelection)
             });
         });
 
