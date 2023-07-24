@@ -3,8 +3,9 @@
         let userScore= 0;
         
         buttons.forEach((button) => {
-            button.addEventListener('click', function (game) {
+            button.addEventListener('click', function () {
                 let playerSelection = button.value
+                game()
                 console.log(playerSelection)
                 return playerSelection
             });
@@ -48,6 +49,7 @@
             console.log("yo")
             let arr = []
             let newarr = []
+            round()
         for (let i = 0; i < 50; i++) {
             if (round().includes("win")) {
                 console.log("You win!")
