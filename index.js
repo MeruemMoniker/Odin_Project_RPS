@@ -45,14 +45,20 @@
             game()
             
         function game () {
-        for (let i = 0; i < 1000; i++) {
-            if (userScore >= 5) {
-                return "You Win!"
-            } 
-            if (round().includes("lose")) {
-                const compScore = compScore + 1
-            } else if (round().includes("win")) {
-                const userScore = userScore++
-            };            
+        for (let i=0, let j=0; i < 100, j < 100; i++, j++) {
+            if (round().includes("win")) {
+                console.log("You win!")
+                i = i + 1
+                if (i - j == 5) {
+                return "WINNER!!!"}
+            } else if (round().includes("lose")) {
+                console.log("You lose!")
+                j = j + 1
+                if (j - i == 5) {
+                return "LOSER!!!"}
+            } else {
+                console.log("It's a tie!")
+            }
             }
         }}
+        game()
