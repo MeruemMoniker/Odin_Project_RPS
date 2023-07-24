@@ -16,7 +16,7 @@
 
         buttons.forEach((button) => {
             button.addEventListener('click', function () {
-                let playerSelection = button.alt;
+                let playerSelection = button.value;
                 console.log(playerSelection);
                 game();
                 return playerSelection
