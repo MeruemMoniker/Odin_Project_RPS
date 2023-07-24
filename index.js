@@ -45,19 +45,22 @@
             game()
             
         function game () {
-        for (let i=0, let j=0; i < 100, j < 100; i++, j++) {
+            let arr = []
+            let newarr = []
+        for (let i = 0; i < 50; i++) {
             if (round().includes("win")) {
                 console.log("You win!")
-                i = i + 1
-                if (i - j == 5) {
+                arr.push(i)
+                if (arr.length >=5) {
                 return "WINNER!!!"}
             } else if (round().includes("lose")) {
                 console.log("You lose!")
-                j = j + 1
-                if (j - i == 5) {
+                newarr.push(i)
+                if (newarr.length >=5) {
                 return "LOSER!!!"}
             } else {
                 console.log("It's a tie!")
+                i = i - 1
             }
             }
         }}
