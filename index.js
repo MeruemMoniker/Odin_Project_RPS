@@ -1,12 +1,35 @@
         const buttons = document.querySelectorAll('button');
         let compScore= 0;
         let userScore= 0;
+
+        function game () {
+            console.log("yo")
+            let arr = []
+            let newarr = []
+            round()
+        for (let i = 0; i < 50; i++) {
+            if (round().includes("win")) {
+                console.log("You win!")
+                arr.push(i)
+                if (arr.length >=5) {
+                return "WINNER!!!"}
+            } else if (round().includes("lose")) {
+                console.log("You lose!")
+                newarr.push(i)
+                if (newarr.length >=5) {
+                return "LOSER!!!"}
+            } else {
+                console.log("It's a tie!")
+                i = i - 1
+            }
+            }
+        }
         
         buttons.forEach((button) => {
             button.addEventListener('click', function () {
-                let playerSelection = button.value
-                game()
-                console.log(playerSelection)
+                let playerSelection = button.value;
+                game();
+                console.log(playerSelection);
                 return playerSelection
             });
         });
@@ -45,25 +68,4 @@
                 return "Scissors beats paper, you win."
             }
             
-        function game () {
-            console.log("yo")
-            let arr = []
-            let newarr = []
-            round()
-        for (let i = 0; i < 50; i++) {
-            if (round().includes("win")) {
-                console.log("You win!")
-                arr.push(i)
-                if (arr.length >=5) {
-                return "WINNER!!!"}
-            } else if (round().includes("lose")) {
-                console.log("You lose!")
-                newarr.push(i)
-                if (newarr.length >=5) {
-                return "LOSER!!!"}
-            } else {
-                console.log("It's a tie!")
-                i = i - 1
-            }
-            }
-        }}
+        }
