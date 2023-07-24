@@ -45,6 +45,7 @@
             game()
             
         function game () {
+            console.log("yo")
             let arr = []
             let newarr = []
         for (let i = 0; i < 50; i++) {
