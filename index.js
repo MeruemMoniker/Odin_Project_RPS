@@ -14,6 +14,15 @@
             }
         };
 
+        buttons.forEach((button) => {
+            button.addEventListener('click', function () {
+                let playerSelection = button.value;
+                game();
+                console.log(playerSelection);
+                return playerSelection
+            });
+        });
+
         function game () {
             console.log("yo")
             let arr = []
@@ -40,7 +49,7 @@
                 }
                 
             }
-            let scoop = round()
+            let scoop = round(computerSelection, playerSelection)
             console.log(scoop)
         for (let i = 0; i < 50; i++) {
             if (scoop.includes("win")) {
@@ -59,12 +68,3 @@
             }
             }
         }
-        
-        buttons.forEach((button) => {
-            button.addEventListener('click', function () {
-                let playerSelection = button.value;
-                game();
-                console.log(playerSelection);
-                return playerSelection
-            });
-        });
