@@ -41,6 +41,7 @@
                 
             }
             let scoop = round()
+            console.log(scoop)
         for (let i = 0; i < 50; i++) {
             if (scoop.includes("win")) {
                 console.log("You win!")
