@@ -40,14 +40,14 @@
                 }
                 
             }
-            round()
+            let scoop = round()
         for (let i = 0; i < 50; i++) {
-            if (round().includes("win")) {
+            if (scoop.includes("win")) {
                 console.log("You win!")
                 arr.push(i)
                 if (arr.length >=5) {
                 return "WINNER!!!"}
-            } else if (round().includes("lose")) {
+            } else if (scoop.includes("lose")) {
                 console.log("You lose!")
                 newarr.push(i)
                 if (newarr.length >=5) {
