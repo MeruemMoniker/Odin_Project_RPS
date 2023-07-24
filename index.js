@@ -5,6 +5,7 @@
         buttons.forEach((button) => {
             button.addEventListener('click', function (game) {
                 let playerSelection = button.value
+                console.log(playerSelection)
                 return playerSelection
             });
         });
