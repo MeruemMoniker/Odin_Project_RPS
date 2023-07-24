@@ -3,7 +3,7 @@
         let userScore= 0;
         
         buttons.forEach((button) => {
-            button.addEventListener('click', function round() {
+            button.addEventListener('click', function (game) {
                 let playerSelection = button.value
                 return playerSelection
             });
@@ -42,7 +42,6 @@
             } if (computerSelection == "Paper" && playerSelection == "Scissors") {
                 return "Scissors beats paper, you win."
             }
-            game()
             
         function game () {
             console.log("yo")
