@@ -14,16 +14,17 @@
             }
         };
 
-        buttons.forEach((button) => {
-            button.addEventListener('click', function () {
-                let playerSelection = button.value;
-                console.log(playerSelection);
-                game();
-                return playerSelection
-            });
-        });
+        
 
         function game () {
+            buttons.forEach((button) => {
+                button.addEventListener('click', function () {
+                    let playerSelection = button.value;
+                    console.log(playerSelection);
+                    game();
+                    return playerSelection
+                });
+            });
             console.log("yo")
             let arr = []
             let newarr = []
