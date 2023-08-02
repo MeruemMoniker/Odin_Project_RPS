@@ -81,4 +81,4 @@
                         return none
                 }}
 
-                document.querySelector('.WLDisplay').textContent = "YOU WIN!"
+                //document.querySelector('.WLDisplay').textContent = "YOU WIN!"
