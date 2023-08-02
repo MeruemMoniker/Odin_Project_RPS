@@ -64,7 +64,7 @@
             
 
             function updateScore(roundWinner) {
-                if (roundWinner == player) {
+                if (roundWinner == 'player') {
                     if (userScore === 5) {
                         return "YOU WIN!"
                     } else if (userScore < 5) {
