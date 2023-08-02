@@ -70,10 +70,8 @@
                     } else if (userScore < 5) {
                         return "You win this round, keep going!"
                     }
-                } else {
-                    if (compScore === 5) {
+                } else if (compScore === 5) {
                         return "you lose..."
                     } else if (compScore < 5) {
                         return "You lost this round, try again!"
                 }}
-            }
