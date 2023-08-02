@@ -31,31 +31,31 @@
                 if (computerSelection == "Scissors" && playerSelection == "Scissors") {
                     return "It's a tie."
                 } else if (computerSelection == "Scissors" && playerSelection == "Rock") {
-                    userScore++
+                    userScore = userScore + 1
                     roundWinner = 'player'
                     console.log("Rock beats scissors.")
                 } else if (computerSelection == "Scissors" && playerSelection == "Paper") {
-                    compScore++
+                    compScore = compScore + 1
                     roundWinner = 'computer'
                     console.log("Scissors beats paper.")
                 } else if (computerSelection == "Rock" && playerSelection == "Rock") {
                     return "It's a tie."
                 } else if (computerSelection == "Rock" && playerSelection == "Paper") {
-                    userScore++
+                    userScore = userScore + 1
                     roundWinner = 'player'
                     console.log("Paper beats rock.")
                 } else if (computerSelection == "Rock" && playerSelection == "Scissors") {
-                    compScore++
+                    compScore = compScore + 1
                     roundWinner = 'computer'
                     console.log("Rock beats scissors.")
                 } else if (computerSelection == "Paper" && playerSelection == "Paper") {
                     return "It's a tie."
                 } else if (computerSelection == "Paper" && playerSelection == "Rock") {
-                    compScore++
+                    compScore = compScore + 1
                     roundWinner = 'computer'
                     console.log("Paper beats rock.")
                 } else if (computerSelection == "Paper" && playerSelection == "Scissors") {
-                    userScore++
+                    userScore = userScore + 1
                     roundWinner = 'player'
                     console.log("Scissors beats paper.")
                 }
@@ -65,12 +65,12 @@
 
             function updateScore(roundWinner) {
                 if (roundWinner == 'player') {
-                    if (userScore === 5) {
+                    if (userScore == 5) {
                         return "YOU WIN!"
                     } else if (userScore < 5) {
                         return "You win this round, keep going!"
                     }
-                } else if (compScore === 5) {
+                } else if (compScore == 5) {
                         return "you lose..."
                     } else if (compScore < 5) {
                         return "You lost this round, try again!"
