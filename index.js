@@ -18,8 +18,7 @@
                 button.addEventListener('click', () => {
                     let playerSelection = button.value;
                     console.log(playerSelection);
-                    round(computerSelection, playerSelection);
-                    game();
+                    round(computerSelection, playerSelection);;
                     return playerSelection
                 });
             });
