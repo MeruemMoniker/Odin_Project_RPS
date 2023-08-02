@@ -16,8 +16,31 @@
     <script src="index.js" defer></script>
   </head>
   <body>
-    <button id="b1" value="Rock"></button>
-    <button id="b2" value="Paper"></button>
-    <button id="b3" value="Scissors"></button>
+    <section id="intro-container">
+      <div id="intro">The first to 5 points wins</div>
+    </section>
+    <section id="button-container">
+      <button id="b1" value="Rock"></button>
+      <button id="b2" value="Paper"></button>
+      <button id="b3" value="Scissors"></button>
+    </section>
+    <section id="vs-container">
+      <div>
+        <div class="img-label">Player</div>
+        <img id="player-img" />
+      </div>
+      <div id="vs-logo"></div>
+      <div>
+        <div class="img-label">Computer</div>
+        <img id="computer-img"/>
+      </div>
+    </section>
+    <section id="win-container">
+      <div id="Winnah"></div>
+      <img id="win-img" />
+    </section>
+    <section id="win-lose-container">
+      <div id="win-lose"></div>
+    </section>
   </body>
 </html>

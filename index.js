@@ -80,3 +80,5 @@
                         console.log("You lost this round, try again!")
                         return none
                 }}
+
+                document.querySelector('.WLDisplay').textContent = "YOU WIN!"
