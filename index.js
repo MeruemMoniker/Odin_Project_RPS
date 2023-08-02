@@ -33,31 +33,31 @@
                 } else if (computerSelection == "Scissors" && playerSelection == "Rock") {
                     userScore++
                     roundWinner = 'player'
-                    return "Rock beats scissors, you win."
+                    console.log("Rock beats scissors.")
                 } else if (computerSelection == "Scissors" && playerSelection == "Paper") {
                     compScore++
                     roundWinner = 'computer'
-                    return "Scissors beats paper, you lose."
+                    console.log("Scissors beats paper.")
                 } else if (computerSelection == "Rock" && playerSelection == "Rock") {
                     return "It's a tie."
                 } else if (computerSelection == "Rock" && playerSelection == "Paper") {
                     userScore++
                     roundWinner = 'player'
-                    return "Paper beats rock, you win"
+                    console.log("Paper beats rock.")
                 } else if (computerSelection == "Rock" && playerSelection == "Scissors") {
                     compScore++
                     roundWinner = 'computer'
-                    return "Rock beats scissors, you lose."
+                    console.log("Rock beats scissors.")
                 } else if (computerSelection == "Paper" && playerSelection == "Paper") {
                     return "It's a tie."
                 } else if (computerSelection == "Paper" && playerSelection == "Rock") {
                     compScore++
                     roundWinner = 'computer'
-                    return "Paper beats rock, you lose."
+                    console.log("Paper beats rock.")
                 } else if (computerSelection == "Paper" && playerSelection == "Scissors") {
                     userScore++
                     roundWinner = 'player'
-                    return "Scissors beats paper, you win."
+                    console.log("Scissors beats paper.")
                 }
                 updateScore(roundWinner)
             }
