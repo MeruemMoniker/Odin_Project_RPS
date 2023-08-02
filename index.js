@@ -39,7 +39,7 @@
                     return "Scissors beats paper, you lose."
                 } else if (computerSelection == "Rock" && playerSelection == "Rock") {
                     return "It's a tie."
-                } if (computerSelection == "Rock" && playerSelection == "Paper") {
+                } else if (computerSelection == "Rock" && playerSelection == "Paper") {
                     userScore++
                     roundWinner = 'player'
                     return "Paper beats rock, you win"
@@ -49,11 +49,11 @@
                     return "Rock beats scissors, you lose."
                 } else if (computerSelection == "Paper" && playerSelection == "Paper") {
                     return "It's a tie."
-                } if (computerSelection == "Paper" && playerSelection == "Rock") {
+                } else if (computerSelection == "Paper" && playerSelection == "Rock") {
                     compScore++
                     roundWinner = 'computer'
                     return "Paper beats rock, you lose."
-                } if (computerSelection == "Paper" && playerSelection == "Scissors") {
+                } else if (computerSelection == "Paper" && playerSelection == "Scissors") {
                     userScore++
                     roundWinner = 'player'
                     return "Scissors beats paper, you win."
