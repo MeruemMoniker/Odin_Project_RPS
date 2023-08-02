@@ -64,7 +64,7 @@
             
 
             function updateScore(roundWinner, userScore, compScore) {
-                console.log(yup)
+                console.log("yup")
                 if (roundWinner == 'player') {
                     if (userScore == 5) {
                         console.log("YOU WIN!")
