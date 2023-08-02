@@ -59,11 +59,11 @@
                     roundWinner = 'player'
                     console.log("Scissors beats paper.")
                 }
-                updateScore(roundWinner)
+                updateScore(roundWinner, userScore, compScore)
             }
             
 
-            function updateScore(roundWinner) {
+            function updateScore(roundWinner, userScore, compScore) {
                 console.log(yup)
                 if (roundWinner == 'player') {
                     if (userScore == 5) {
