@@ -1,7 +1,7 @@
         const buttons = document.querySelectorAll('button');
         let compScore= 0;
         let userScore= 0;
-        const computerSelection = getComputerChoice();
+        let computerSelection = getComputerChoice();
 
         function getComputerChoice(){
             const randNum = Math.floor(Math.random() * 3);
