@@ -20,7 +20,7 @@
                     getComputerChoice();
                     console.log(playerSelection);
                     console.log(computerSelection);
-                    round(computerSelection, playerSelection);;
+                    round(computerSelection, playerSelection);
                     return playerSelection
                 });
             });
