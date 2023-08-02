@@ -64,6 +64,7 @@
             
 
             function updateScore(roundWinner) {
+                console.log(yup)
                 if (roundWinner == 'player') {
                     if (userScore == 5) {
                         return "YOU WIN!"
