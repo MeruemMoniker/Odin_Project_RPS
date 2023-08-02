@@ -1,6 +1,6 @@
         const buttons = document.querySelectorAll('button');
-        let compScore= 0;
-        let userScore= 0;
+        let compScore = 0;
+        let userScore = 0;
         let computerSelection = getComputerChoice();
 
         function getComputerChoice(){
