@@ -67,12 +67,16 @@
                 console.log(yup)
                 if (roundWinner == 'player') {
                     if (userScore == 5) {
-                        return "YOU WIN!"
+                        console.log("YOU WIN!")
+                        return
                     } else if (userScore < 5) {
-                        return "You win this round, keep going!"
+                        "You win this round, keep going!"
+                        return
                     }
                 } else if (compScore == 5) {
-                        return "you lose..."
+                    console.log("you lose...")    
+                    return
                     } else if (compScore < 5) {
-                        return "You lost this round, try again!"
+                        console.log("You lost this round, try again!")
+                        return
                 }}
