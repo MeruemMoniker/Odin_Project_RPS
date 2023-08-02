@@ -18,7 +18,7 @@
                 button.addEventListener('click', () => {
                     let playerSelection = button.value;
                     getComputerChoice()
-                    console.log(playerSelection)
+                    console.log(`Player: ${playerSelection}`)
                     console.log(computerSelection)
                     console.log(round(computerSelection, playerSelection))
                     return
@@ -75,8 +75,8 @@
                     }
                 } else if (compScore == 5) {
                     console.log("you lose...")    
-                    return
+                    return None
                     } else if (compScore < 5) {
                         console.log("You lost this round, try again!")
-                        return
+                        return none
                 }}
