@@ -18,13 +18,14 @@
                 button.addEventListener('click', () => {
                     let playerSelection = button.value;
                     console.log(playerSelection);
+                    console.log(computerSelection);
                     round(computerSelection, playerSelection);;
                     return playerSelection
                 });
             });
+
             console.log("yo")
-            let arr = []
-            let newarr = []
+
             function round (computerSelection, playerSelection) {
                 if (computerSelection == "Scissors" && playerSelection == "Scissors") {
                     return "It's a tie."
