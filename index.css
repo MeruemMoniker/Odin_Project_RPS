@@ -14,3 +14,11 @@
     height: 20px;
     width: 40px;
 }
+
+#intro-container {
+    font-size: 1.75rem;
+    background: black;
+    color: white;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
