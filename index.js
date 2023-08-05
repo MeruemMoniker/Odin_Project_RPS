@@ -81,7 +81,7 @@
                     return None
                     } else if (compScore < 5) {
                         console.log("You lost this round, try again!")
-                        return none
+                        return
                 }}
 
                 
