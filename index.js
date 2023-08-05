@@ -65,8 +65,10 @@
 
             function updateScore(roundWinner, userScore, compScore) {
                 console.log("yup")
+                let winOrLose = document.querySelectorAll('#win-lose')
                 if (roundWinner == 'player') {
                     if (userScore == 5) {
+                        winOrLose.textContent = "YOU WIN!!"
                         console.log("YOU WIN!")
                         return
                     } else if (userScore < 5) {
@@ -74,6 +76,7 @@
                         return
                     }
                 } else if (compScore == 5) {
+                    winOrLose.textContent = "YOU WIN!!"
                     console.log("you lose...")    
                     return None
                     } else if (compScore < 5) {
