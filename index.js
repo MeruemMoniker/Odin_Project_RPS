@@ -66,22 +66,52 @@
             function updateScore(roundWinner, userScore, compScore) {
                 console.log("yup")
                 let winOrLose = document.querySelector('#win-lose')
+                let newPlayerScore = document.querySelector('#playerScore')
+                let newComputerScore = document.querySelector('#computerScore')
                 if (roundWinner == 'player') {
                     if (userScore == 5) {
                         winOrLose.textContent = "YOU WIN!!"
                         console.log("YOU WIN!")
                         return
-                    } else if (userScore < 5) {
-                        "You win this round, keep going!"
+                    } else if (userScore == 4) {
+                        newPlayerScore.textContent = "Player Score: 4"
+                        console.log("You win this round, keep going!")
+                        return
+                    } else if (userScore == 3) {
+                        newPlayerScore.textContent = "Player Score: 3"
+                        console.log("You win this round, keep going!")
+                        return
+                    } else if (userScore == 2) {
+                        newPlayerScore.textContent = "Player Score: 2"
+                        console.log("You win this round, keep going!")
+                        return
+                    } else if (userScore == 1) {
+                        newPlayerScore.textContent = "Player Score: 1"
+                        console.log("You win this round, keep going!")
                         return
                     }
                 } else if (compScore == 5) {
-                    winOrLose.textContent = "YOU WIN!!"
+                    newComputerScore.textContent = "Computer Score: 5"
+                    winOrLose.textContent = "YOU LOSE!!"
                     console.log("you lose...")    
                     return 
-                    } else if (compScore < 5) {
-                        console.log("You lost this round, try again!")
-                        return
-                }}
+                    } else if (compScore == 4) {
+                    newComputerScore.textContent = "Computer Score: 4"
+                    console.log("You lost this round, keep going!")
+                    return
+                } else if (compScore == 3) {
+                    newComputerScore.textContent = "Computer Score: 3"
+                    console.log("You lost this round, keep going!")
+                    return
+                } else if (compScore == 2) {
+                    newComputerScore.textContent = "Computer Score: 2"
+                    console.log("You lost this round, keep going!")
+                    return
+                } else if (compScore == 1) {
+                    newComputerScore.textContent = "Computer Score: 1"
+                    console.log("You lost this round, keep going!")
+                    return
+                }
+            }
 
                 
