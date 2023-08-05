@@ -65,7 +65,7 @@
 
             function updateScore(roundWinner, userScore, compScore) {
                 console.log("yup")
-                let winOrLose = document.querySelectorAll('#win-lose')
+                let winOrLose = document.querySelector('#win-lose')
                 if (roundWinner == 'player') {
                     if (userScore == 5) {
                         winOrLose.textContent = "YOU WIN!!"
