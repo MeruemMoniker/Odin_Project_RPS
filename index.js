@@ -78,7 +78,7 @@
                 } else if (compScore == 5) {
                     winOrLose.textContent = "YOU WIN!!"
                     console.log("you lose...")    
-                    return None
+                    return 
                     } else if (compScore < 5) {
                         console.log("You lost this round, try again!")
                         return
