@@ -70,6 +70,7 @@
                 let newComputerScore = document.querySelector('#computerScore')
                 if (roundWinner == 'player') {
                     if (userScore == 5) {
+                        newPlayerScore.textContent = "Player Score: 5"
                         winOrLose.textContent = "YOU WIN!!"
                         console.log("YOU WIN!")
                         return
