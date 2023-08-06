@@ -69,3 +69,12 @@ table {
     width: 100%;
     height: 2rem;
 }
+
+#button-container {
+    display: flex;
+}
+
+#rock-label {
+    display: block;
+}
+
