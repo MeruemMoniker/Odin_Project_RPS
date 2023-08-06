@@ -78,5 +78,23 @@ table {
     display: block;
 }
 
+#buttons-container {
+    display: block;
+}
+
+#rock-label {
+    display: flex;
+}
+
+#paper-label {
+    display: flex;
+}
+
+#scissors-label {
+    display: flex;
+}
+
+
+
 
 
