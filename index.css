@@ -73,7 +73,7 @@ table {
 
 #button-container {
     display: inline-block;
-    width: auto;
+    width: calc(100% - 100px);
     padding-left: 50px;
     padding-right: 50px;
     overflow: hidden;
