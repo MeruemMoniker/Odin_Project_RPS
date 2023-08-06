@@ -80,13 +80,16 @@ table {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    border: 2px solid;
 }
 
 #buttons-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
 }
 
 #rock-label {
