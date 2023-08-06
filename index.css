@@ -25,8 +25,6 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 ol, ul {
 	list-style: none;
@@ -76,6 +74,8 @@ table {
 #button-container {
     display: inline-block;
     width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #label-container {
