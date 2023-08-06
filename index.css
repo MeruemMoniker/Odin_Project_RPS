@@ -75,11 +75,11 @@ table {
 }
 
 #label-container {
-    display: block;
+    display: flex;
 }
 
 #buttons-container {
-    display: block;
+    display: flex;
 }
 
 #rock-label {
