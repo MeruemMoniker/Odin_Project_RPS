@@ -90,6 +90,8 @@ table {
     margin-left: auto;
     margin-right: auto;
     border: 2px solid;
+    width: 100%;
+    height: 25px;
 }
 
 #rock-label {
