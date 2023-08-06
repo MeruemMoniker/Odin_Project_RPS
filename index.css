@@ -76,7 +76,6 @@ table {
     width: calc(100% - 40%);
     padding-left: 20%;
     padding-right: 20%;
-    overflow: hidden;
 }
 
 #label-container {
@@ -114,7 +113,10 @@ table {
     justify-content: space-between;
 }
 
-
-
-
+#vs-container {
+    display: inline-block;
+    width: calc(100% - 40%);
+    padding-left: 20%;
+    padding-right: 20%;
+}
 
