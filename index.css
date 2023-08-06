@@ -73,9 +73,9 @@ table {
 
 #button-container {
     display: inline-block;
-    width: calc(100% - 100px);
-    padding-left: 50px;
-    padding-right: 50px;
+    width: calc(100% - 40%);
+    padding-left: 20%;
+    padding-right: 20%;
     overflow: hidden;
 }
 
