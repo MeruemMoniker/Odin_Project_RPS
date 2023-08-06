@@ -84,14 +84,17 @@ table {
 
 #rock-label {
     display: flex;
+    justify-content: space-between;
 }
 
 #paper-label {
     display: flex;
+    justify-content: space-between;
 }
 
 #scissors-label {
     display: flex;
+    justify-content: space-between;
 }
 
 
