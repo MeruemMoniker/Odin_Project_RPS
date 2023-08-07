@@ -46,7 +46,7 @@ table {
 
 #b1 {
     display: flex;
-    min-height: 100px;
+    min-height: 125px;
     max-height: 47.5px;
     min-width: 20%;
     max-width: 55%;
@@ -74,7 +74,7 @@ table {
 
 #b2 {
     display: flex;
-    min-height: 100px;
+    min-height: 125px;
     max-height: 47.5px;
     min-width: 20%;
     max-width: 55%;
@@ -102,7 +102,7 @@ table {
 
 #b3 {
     display: flex;
-    min-height: 100px;
+    min-height: 125px;
     max-height: 47.5px;
     min-width: 20%;
     max-width: 55%;
