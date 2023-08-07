@@ -249,18 +249,6 @@ table {
     justify-content: space-around;
 }
 
-#player-choice {
-    border: 2px solid black;
-    display: flex;
-    width: auto;
-}
-
-#computer-choice {
-    border: 2px solid black;
-    display: flex;
-    width: auto;
-}
-
 #computer-img {
     border: 2px solid black;
     display: flex;
