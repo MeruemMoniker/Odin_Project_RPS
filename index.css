@@ -316,3 +316,11 @@ table {
     display: flex;
     width: auto;
 }
+
+#playerScore {
+    margin: 0 auto;
+}
+
+#computerScore {
+    margin: 0 auto;
+}
