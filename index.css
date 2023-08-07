@@ -227,12 +227,19 @@ table {
 
 #label-container {
     display: flex;
-    min-width: 20%;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
 }
 
 #lower-vs-container {
     display: flex;
-    min-width: 20%
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
 }
 
 #img-label {
@@ -312,7 +319,7 @@ table {
 }
 
 #player-choice {
-    min-width: 90%;
+    min-width: 40%;
     max-width: 76%;
     padding: .25rem auto;
     margin-left: auto;
@@ -323,7 +330,7 @@ table {
 }
 
 #computer-choice {
-    min-width: 90%;
+    min-width: 40%;
     max-width: 76%;
     padding: .25rem auto;
     margin-left: auto;
