@@ -215,14 +215,18 @@ table {
 #vs-container {
     display: inline-block;
     width: auto;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 30%;
+    padding-right: 30%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 1px solid;
     height: auto;
-    
+}
+
+.img-label {
+    min-width: 30%;
+    max-width: 40%
 }
 
 #computer-img {
