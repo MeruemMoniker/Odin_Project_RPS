@@ -238,6 +238,7 @@ table {
 #img-label {
     display: flex;
     margin: auto;
+    justify-content: space-between;
 }
 
 #player-choice {
