@@ -225,8 +225,6 @@ table {
 }
 
 .img-label {
-    min-width: 90%;
-    max-width: 76%;
     justify-content: center;
     align-items: center;
     text-align:center;
