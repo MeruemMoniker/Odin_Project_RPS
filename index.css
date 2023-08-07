@@ -224,13 +224,6 @@ table {
     height: auto;
 }
 
-.img-label {
-    justify-content: center;
-    align-items: center;
-    text-align:center;
-    margin: auto;
-}
-
 #computer-img {
     display: flex;
     min-height: 80px;
