@@ -221,7 +221,7 @@ table {
     justify-content: space-between;
     align-items: center;
     border: 1px solid;
-    height: 100px;
+    height: auto;
     
 }
 
