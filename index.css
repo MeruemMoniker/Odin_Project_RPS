@@ -212,9 +212,7 @@ table {
 }
 
 #vs-container {
-    display: flex;
     border: 2px solid black;
-    width: auto;
     margin: 0 auto;
     padding-left: 30%;
     padding-right: 30%;
@@ -223,11 +221,13 @@ table {
     justify-content: space-between;
     align-items: center;
     height: auto;
+    display: inline-block;
+    width: calc(100% - 40%);
 }
 
 #label-container {
     display: flex;
-    width: auto;
+    min-width: 20;
 }
 
 #img-label {
