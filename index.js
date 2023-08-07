@@ -96,23 +96,28 @@
                         return
                     }
                 } else if (compScore == 5) {
+                    Winnah.textContent = `You lose this round. ${winMessage}`
                     newComputerScore.textContent = "Computer Score: 5"
                     winOrLose.textContent = "YOU LOSE!!"
                     console.log("you lose...")    
                     return 
                     } else if (compScore == 4) {
+                        Winnah.textContent = `You lose this round. ${winMessage}`
                     newComputerScore.textContent = "Computer Score: 4"
                     console.log("You lost this round, keep going!")
                     return
                 } else if (compScore == 3) {
+                    Winnah.textContent = `You lose this round. ${winMessage}`
                     newComputerScore.textContent = "Computer Score: 3"
                     console.log("You lost this round, keep going!")
                     return
                 } else if (compScore == 2) {
+                    Winnah.textContent = `You lose this round. ${winMessage}`
                     newComputerScore.textContent = "Computer Score: 2"
                     console.log("You lost this round, keep going!")
                     return
                 } else if (compScore == 1) {
+                    Winnah.textContent = `You lose this round. ${winMessage}`
                     newComputerScore.textContent = "Computer Score: 1"
                     console.log("You lost this round, keep going!")
                     return
