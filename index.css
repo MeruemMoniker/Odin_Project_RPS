@@ -230,7 +230,7 @@ table {
     display: flex;
     min-height: 80px;
     max-height: 47.5px;
-    min-width: 75%;
+    min-width: 90%;
     max-width: 76%;
     padding: .25rem auto;
     margin-left: auto;
@@ -254,13 +254,15 @@ table {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%;
+    border: 2px solid;
 }
 
 #player-img {
+    border: 2px solid;
     display: flex;
     min-height: 80px;
     max-height: 47.5px;
-    min-width: 75%;
+    min-width: 90%;
     max-width: 76%;
     padding: .25rem auto;
     margin-left: auto;
