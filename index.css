@@ -227,9 +227,9 @@ table {
 
 #computer-img {
     display: flex;
-    min-height: 125px;
+    min-height: 20%;
     max-height: 47.5px;
-    min-width: 20%;
+    min-width: 125px;
     max-width: 55%;
     padding: .25rem auto;
     margin-left: auto;
