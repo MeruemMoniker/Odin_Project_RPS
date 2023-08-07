@@ -168,14 +168,20 @@ table {
 
 #rock-label {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #paper-label {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #scissors-label {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #vs-container {
