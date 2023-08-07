@@ -225,6 +225,7 @@ table {
     min-width: 30%;
     max-width: 40%;
     justify-content: center;
+    align-items: center;
 }
 
 #computer-img {
