@@ -226,10 +226,10 @@ table {
 }
 
 #computer-img {
-    display: inline-block;
+    display: flex;
     min-height: 80px;
     max-height: 47.5px;
-    min-width: 90%;
+    min-width: 30%;
     max-width: 76%;
     padding: .25rem auto;
     margin-left: auto;
@@ -257,11 +257,11 @@ table {
 }
 
 #player-img {
-    display: inline-block;
+    display: flex;
     border: 2px solid;
     min-height: 80px;
     max-height: 47.5px;
-    min-width: 90%;
+    min-width: 30%;
     max-width: 76%;
     padding: .25rem auto;
     margin-left: auto;
