@@ -227,6 +227,7 @@ table {
     max-width: 76%;
     justify-content: center;
     align-items: center;
+    text-align:center;
     margin: auto;
 }
 
