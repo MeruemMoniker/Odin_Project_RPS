@@ -222,7 +222,7 @@ table {
     align-items: center;
     height: auto;
     display: inline-block;
-    width: auto;
+    width: calc(40%-2px);
 }
 
 #label-container {
