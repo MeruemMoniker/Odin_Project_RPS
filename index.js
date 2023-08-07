@@ -1,23 +1,21 @@
         const buttons = document.querySelectorAll('button');
         let compScore = 0;
         let userScore = 0;
-        let computerSelection = getComputerChoice();
-
-        function getComputerChoice(){
-            let randNum = Math.floor(Math.random() * 3);
-            if (randNum == 0) {
-                return "Rock"
-            } else if (randNum == 1) {
-                return "Paper"
-            } else if (randNum == 2) {
-                return "Scissors"
-            }
-        };
 
             buttons.forEach((button) => {
                 button.addEventListener('click', () => {
                     let playerSelection = button.value;
-                    getComputerChoice()
+                    function getComputerChoice(){
+                        let randNum = Math.floor(Math.random() * 3);
+                        if (randNum == 0) {
+                            return "Rock"
+                        } else if (randNum == 1) {
+                            return "Paper"
+                        } else if (randNum == 2) {
+                            return "Scissors"
+                        }
+                    };
+                    let computerSelection = getComputerChoice();
                     round(computerSelection, playerSelection)
                     return
                 });
