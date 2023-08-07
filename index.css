@@ -212,7 +212,7 @@ table {
 }
 
 #vs-container {
-    display: inline-block;
+    display: flex;
     border: 2px solid black;
     width: auto;
     margin: 0 auto;
