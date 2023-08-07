@@ -140,6 +140,24 @@ table {
     background-position: 50% 50%;
 }
 
+#b1:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
+
+#b2:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
+
+#b3:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    transform: translateY(-5px);
+  }
+
 .intro {
     display: flex;
     padding: 0;
