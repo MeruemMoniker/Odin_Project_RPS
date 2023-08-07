@@ -18,9 +18,7 @@
                 button.addEventListener('click', () => {
                     let playerSelection = button.value;
                     getComputerChoice()
-                    console.log(`Player: ${playerSelection}`)
-                    console.log(computerSelection)
-                    
+                    round(computerSelection, playerSelection)
                     return
                 });
             });
