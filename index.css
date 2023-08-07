@@ -212,6 +212,7 @@ table {
 }
 
 #vs-container {
+    display: inline-block;
     border: 2px solid black;
     width: auto;
     margin: 0 auto;
@@ -219,14 +220,13 @@ table {
     padding-right: 30%;
     padding-top: 25px;
     padding-bottom: 25px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     height: auto;
 }
 
 #computer-img {
-    display: flex;
+    display: inline-block;
     min-height: 80px;
     max-height: 47.5px;
     min-width: 90%;
@@ -257,8 +257,8 @@ table {
 }
 
 #player-img {
+    display: inline-block;
     border: 2px solid;
-    display: flex;
     min-height: 80px;
     max-height: 47.5px;
     min-width: 90%;
