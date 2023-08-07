@@ -20,7 +20,7 @@
                     getComputerChoice()
                     console.log(`Player: ${playerSelection}`)
                     console.log(computerSelection)
-                    console.log(round(computerSelection, playerSelection))
+                    
                     return
                 });
             });
