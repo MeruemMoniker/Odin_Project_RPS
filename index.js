@@ -25,50 +25,60 @@
                 });
             });
 
-            console.log("yo")
+            console.log("yo");
 
             function round (computerSelection, playerSelection) {
+                let roundWinner = "";
+                let compScore = 0;
+                let userScore = 0;
+                let winMessage = "";
+                let roundWinnah = document.querySelector('#Winnah');
                 if (computerSelection == "Scissors" && playerSelection == "Scissors") {
+                    roundWinnah.textContent = "Nobody wins this Round! Your scissors are equal to the computer's scissors!!"
                     return "It's a tie."
                 } else if (computerSelection == "Scissors" && playerSelection == "Rock") {
                     userScore = userScore + 1
                     roundWinner = 'player'
-                    console.log("Rock beats scissors.")
+                    winMessage = "Rock beats scissors."
                 } else if (computerSelection == "Scissors" && playerSelection == "Paper") {
                     compScore = compScore + 1
                     roundWinner = 'computer'
-                    console.log("Scissors beats paper.")
+                    winMessage = "Scissors beats paper."
                 } else if (computerSelection == "Rock" && playerSelection == "Rock") {
+                    roundWinnah.textContent = "Nobody wins this Round! Your rock bounced off of the computer's rock!!"
                     return "It's a tie."
                 } else if (computerSelection == "Rock" && playerSelection == "Paper") {
                     userScore = userScore + 1
                     roundWinner = 'player'
-                    console.log("Paper beats rock.")
+                    winMessage = "Paper beats rock."
                 } else if (computerSelection == "Rock" && playerSelection == "Scissors") {
                     compScore = compScore + 1
                     roundWinner = 'computer'
-                    console.log("Rock beats scissors.")
+                    winMessage = "Rock beats scissors."
                 } else if (computerSelection == "Paper" && playerSelection == "Paper") {
+                    roundWinnah.textContent = "Nobody wins this Round! You gave each other a paper cut!!"
                     return "It's a tie."
                 } else if (computerSelection == "Paper" && playerSelection == "Rock") {
                     compScore = compScore + 1
                     roundWinner = 'computer'
-                    console.log("Paper beats rock.")
+                    winMessage = "Paper beats rock."
                 } else if (computerSelection == "Paper" && playerSelection == "Scissors") {
                     userScore = userScore + 1
                     roundWinner = 'player'
-                    console.log("Scissors beats paper.")
+                    winMessage = "Scissors beats paper."
                 }
-                updateScore(roundWinner, userScore, compScore)
+                updateScore(roundWinner, userScore, compScore, winMessage)
             }
             
 
-            function updateScore(roundWinner, userScore, compScore) {
+            function updateScore(roundWinner, userScore, compScore, winMessage) {
                 console.log("yup")
                 let winOrLose = document.querySelector('#win-lose')
                 let newPlayerScore = document.querySelector('#playerScore')
                 let newComputerScore = document.querySelector('#computerScore')
+                let Winnah = document.querySelector('#Winnah')
                 if (roundWinner == 'player') {
+                    Winnah.textContent = `You win this round! ${winMessage}`
                     if (userScore == 5) {
                         newPlayerScore.textContent = "Player Score: 5"
                         winOrLose.textContent = "YOU WIN!!"
