@@ -229,7 +229,7 @@ table {
     display: flex;
     min-height: 80px;
     max-height: 47.5px;
-    min-width: 25%;
+    min-width: 75%;
     max-width: 55%;
     padding: .25rem auto;
     margin-left: auto;
@@ -244,7 +244,6 @@ table {
     font-weight: 700;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     white-space: nowrap;
-    border: 2px solid black;
     color: white;
     background-color: white;
     text-align: center;
@@ -253,4 +252,5 @@ table {
     background-image: url('https://clipartix.com/wp-content/uploads/2016/04/Primary-writing-paper-clipart.png');
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
