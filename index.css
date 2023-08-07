@@ -160,7 +160,6 @@ table {
 
 #buttons-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -170,17 +169,14 @@ table {
 
 #rock-label {
     display: flex;
-    justify-content: space-between;
 }
 
 #paper-label {
     display: flex;
-    justify-content: space-between;
 }
 
 #scissors-label {
     display: flex;
-    justify-content: space-between;
 }
 
 #vs-container {
