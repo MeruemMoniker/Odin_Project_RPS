@@ -225,6 +225,15 @@ table {
     height: auto;
 }
 
+#label-container {
+    display: flex;
+    width: auto;
+}
+
+#img-label {
+    display: flex;
+}
+
 #player-choice {
     display: flex;
     width: auto;
