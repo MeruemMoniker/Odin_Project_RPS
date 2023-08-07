@@ -181,7 +181,7 @@ table {
 
 #vs-container {
     display: inline-block;
-    width: calc(100% - (40% - 4px));
+    width: auto;
     padding-left: 20%;
     padding-right: 20%;
     display: flex;
