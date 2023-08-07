@@ -226,6 +226,7 @@ table {
 }
 
 #label-container {
+    border: 2px solid black;
     display: flex;
     text-align: center;
     align-items: center;
@@ -236,6 +237,7 @@ table {
 }
 
 #lower-vs-container {
+    border: 2px solid black;
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -244,22 +246,26 @@ table {
 }
 
 #img-label {
+    border: 2px solid black;
     display: flex;
     margin: auto;
     justify-content: space-between;
 }
 
 #player-choice {
+    border: 2px solid black;
     display: flex;
     width: auto;
 }
 
 #computer-choice {
+    border: 2px solid black;
     display: flex;
     width: auto;
 }
 
 #computer-img {
+    border: 2px solid black;
     display: flex;
     min-height: 80px;
     max-height: 47.5px;
@@ -291,8 +297,8 @@ table {
 }
 
 #player-img {
+    border: 2px solid black;
     display: flex;
-    border: 2px solid;
     min-height: 80px;
     max-height: 47.5px;
     min-width: 30%;
