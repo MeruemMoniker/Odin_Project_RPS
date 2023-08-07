@@ -232,6 +232,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     height: auto;
+    justify-content: space-around;
 }
 
 #lower-vs-container {
