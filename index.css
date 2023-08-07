@@ -212,14 +212,14 @@ table {
 }
 
 #vs-container {
-    border: 2px solid red;
+    border: 5px solid red;
     margin-left: 25%;
     margin-right: 25%;
     padding-top: 25px;
     padding-bottom: 25px;
     height: auto;
     display: inline-block;
-    width: calc(50%-2px);
+    width: calc(50%-10px);
 }
 
 #label-container {
