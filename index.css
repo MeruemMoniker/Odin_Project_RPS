@@ -297,3 +297,12 @@ table {
 #computer-choice {
     width: 20%;
 }
+
+#winnah-container {
+    width: auto;
+}
+
+#Winnah {
+    margin: 0 auto;
+    justify-content: center;
+}
