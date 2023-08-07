@@ -300,6 +300,7 @@ table {
 
 #winnah-container {
     width: auto;
+    justify-content: center;
 }
 
 #Winnah {
