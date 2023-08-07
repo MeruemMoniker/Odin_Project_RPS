@@ -25,8 +25,6 @@
 
             function round (computerSelection, playerSelection) {
                 let roundWinner = "";
-                let compScore = 0;
-                let userScore = 0;
                 let winMessage = "";
                 let roundWinnah = document.querySelector('#Winnah');
                 if (computerSelection == "Scissors" && playerSelection == "Scissors") {
