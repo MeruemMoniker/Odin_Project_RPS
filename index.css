@@ -66,7 +66,7 @@ table {
     white-space: nowrap;
     border: 2px solid black;
     color: white;
-    background-color: blue;
+    background-color: lightsalmon;
     text-align: center;
     border-radius: 7.5px;
     font-size: 1.2rem;
@@ -98,10 +98,14 @@ table {
     white-space: nowrap;
     border: 2px solid black;
     color: white;
-    background-color: blue;
+    background-color: lightsalmon;
     text-align: center;
     border-radius: 7.5px;
     font-size: 1.2rem;
+    background-image: url('https://illustoon.com/photo/dl/11331.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 #b3 {
@@ -126,9 +130,14 @@ table {
     white-space: nowrap;
     border: 2px solid black;
     color: white;
+    background-color: lightsalmon;
     text-align: center;
     border-radius: 7.5px;
     font-size: 1.2rem;
+    background-image: url('https://illustoon.com/photo/dl/11331.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 .intro {
@@ -136,7 +145,7 @@ table {
     padding: 0;
     margin: 0;
     font-size: 1.75rem;
-    background: black;
+    background: lightsalmon;
     color: white;
     width: 100%;
     height: 2rem;
