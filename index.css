@@ -286,3 +286,11 @@ table {
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
+
+#player-choice {
+    width: 20%;
+}
+
+#computer-choice {
+    width: 20%;
+}
