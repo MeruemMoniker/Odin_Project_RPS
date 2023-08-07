@@ -217,8 +217,6 @@ table {
     padding-right: 30%;
     padding-top: 25px;
     padding-bottom: 25px;
-    justify-content: space-between;
-    align-items: center;
     height: auto;
     display: inline-block;
     width: calc(100%-2px);
