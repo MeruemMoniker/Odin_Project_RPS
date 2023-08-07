@@ -71,7 +71,7 @@ table {
     border-radius: 7.5px;
     font-size: 1.2rem;
     background-image: url('https://illustoon.com/photo/dl/11331.png');
-    background-size: cover;
+    background-size: auto;
 }
 
 #b2 {
