@@ -223,7 +223,8 @@ table {
 
 .img-label {
     min-width: 30%;
-    max-width: 40%
+    max-width: 40%;
+    justify-content: center;
 }
 
 #computer-img {
