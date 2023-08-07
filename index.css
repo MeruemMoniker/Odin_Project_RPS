@@ -215,7 +215,7 @@ table {
     border: 5px solid red;
     padding-left: 20%;
     padding-right: 20%;
-
+    justify-content: center;
     padding-top: 25px;
     padding-bottom: 25px;
     height: auto;
