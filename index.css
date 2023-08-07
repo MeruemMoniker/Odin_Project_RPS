@@ -227,11 +227,17 @@ table {
 
 #label-container {
     display: flex;
-    min-width: 20;
+    min-width: 20%;
+}
+
+#lower-vs-container {
+    display: flex;
+    min-width: 20%
 }
 
 #img-label {
     display: flex;
+    margin: auto;
 }
 
 #player-choice {
