@@ -1,3 +1,7 @@
+* {
+    font-style: fantasy
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -121,7 +125,8 @@ table {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid;
+    border: 1px solid;
     height: 100px;
+    
 }
 
