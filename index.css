@@ -304,10 +304,10 @@ table {
     width: auto;
     justify-content: center;
     text-align: center;
+    padding-bottom: 25px;
 }
 
 #Winnah {
-
     margin: 0 auto;
     justify-content: center;
 }
@@ -315,6 +315,7 @@ table {
 #win-container {
     display: flex;
     width: auto;
+    padding-top: 25px;
 }
 
 #playerScore {
