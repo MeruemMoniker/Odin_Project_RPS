@@ -349,8 +349,15 @@ table {
 
 #playerScore {
     margin: 0 auto;
+    font-size: 2.5rem;
 }
 
 #computerScore {
     margin: 0 auto;
+    font-size: 2.5rem;
+}
+
+#win-lose {
+    margin: 0 auto;
+    font-size: 5rem;
 }
