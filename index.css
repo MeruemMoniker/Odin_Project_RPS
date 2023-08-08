@@ -362,3 +362,7 @@ table {
     margin: 0 auto;
     font-size: 2.5rem;
 }
+
+#win-lose-container {
+    justify-content: center;
+}
