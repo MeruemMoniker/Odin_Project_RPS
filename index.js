@@ -6,7 +6,7 @@
                 button.addEventListener('click', () => {
                     let playerSelection = button.value;
                     function getComputerChoice(){
-                        let compPic = document.querySelector("#computer-img");
+                        let compPic = document.querySelector('#computer-img');
                         let randNum = Math.floor(Math.random() * 3);
                         if (randNum == 0) {
                             compPic.style.backgroundImage="url('https://illustoon.com/photo/dl/11331.png')";
