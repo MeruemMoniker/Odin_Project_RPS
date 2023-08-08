@@ -19,6 +19,14 @@
                             return "Scissors"
                         }
                     };
+                    let playerPic = document.querySelector('#player-img');
+                    if (playerSelection == "Rock") {
+                        playerPic.style.backgroundImage="url('https://illustoon.com/photo/dl/11331.png')";
+                    } else if (playerSelection == "Paper") {
+                        playerPic.style.backgroundImage="url('https://clipartix.com/wp-content/uploads/2016/04/Primary-writing-paper-clipart.png')";
+                    } else if (playerSelection == "Scissors") {
+                        playerPic.style.backgroundImage="url('https://illustoon.com/photo/dl/5937.png')";
+                    }
                     let computerSelection = getComputerChoice();
                     round(computerSelection, playerSelection)
                     return
