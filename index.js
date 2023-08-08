@@ -6,12 +6,16 @@
                 button.addEventListener('click', () => {
                     let playerSelection = button.value;
                     function getComputerChoice(){
+                        let compPic = document.querySelector("#");
                         let randNum = Math.floor(Math.random() * 3);
                         if (randNum == 0) {
+                            compPic.style.backgroundImage="url('https://illustoon.com/photo/dl/11331.png')";
                             return "Rock"
                         } else if (randNum == 1) {
+                            compPic.style.backgroundImage="url('https://clipartix.com/wp-content/uploads/2016/04/Primary-writing-paper-clipart.png')";
                             return "Paper"
                         } else if (randNum == 2) {
+                            compPic.style.backgroundImage="url('https://illustoon.com/photo/dl/5937.png')";
                             return "Scissors"
                         }
                     };
