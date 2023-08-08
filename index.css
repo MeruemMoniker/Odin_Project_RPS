@@ -175,6 +175,7 @@ table {
     width: calc(100% - 40%);
     padding-left: 20%;
     padding-right: 20%;
+    padding-top: 25px;
 }
 
 #label-container {
@@ -213,6 +214,7 @@ table {
 
 #vs-container {
     border: 2px solid black;
+    padding-top: 25px;
     padding-left: 20%;
     padding-right: 20%;
     justify-content: center;
@@ -366,4 +368,5 @@ table {
 
 #win-lose-container {
     justify-content: center;
+    margin: 0 auto;
 }
