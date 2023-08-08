@@ -19,7 +19,7 @@
                             return "Scissors"
                         }
                     };
-                    function getPlayerPic () {
+                    function getPlayerPic (playerSelection) {
                         let playerPic = document.querySelector('#player-img');
                         if (playerSelection == "Rock") {
                             playerPic.style.backgroundImage="url('https://illustoon.com/photo/dl/11331.png')";
@@ -29,7 +29,7 @@
                             playerPic.style.backgroundImage="url('https://illustoon.com/photo/dl/5937.png')";
                         }
                     }
-
+                    getPlayerPic(playerSelection) 
                     let computerSelection = getComputerChoice();
                     round(computerSelection, playerSelection)
                     return
