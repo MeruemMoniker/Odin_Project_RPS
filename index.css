@@ -187,6 +187,7 @@ table {
 }
 
 #buttons-container {
+    padding-top: 3px;
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -213,6 +214,7 @@ table {
 }
 
 #vs-container {
+    padding-top: 25px;
     border: 2px solid black;
     padding-top: 25px;
     padding-left: 20%;
