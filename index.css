@@ -386,5 +386,6 @@ table {
 @media only screen and (max-width: 600px) {
     #intro {
       font-size: 2rem;
+      letter-spacing: 1px;
     }
   }
