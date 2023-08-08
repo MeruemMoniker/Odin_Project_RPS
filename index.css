@@ -43,6 +43,13 @@ table {
 	border-spacing: 0;
 }
 
+@media only screen and (max-width: 768px) {
+    #intro {
+      font-size: .1rem;
+      letter-spacing: normal;
+    }
+  }
+
 #b1 {
     display: flex;
     min-height: 125px;
@@ -382,10 +389,3 @@ table {
     text-align: center;
     align-items: center;
 }
-
-@media only screen and (max-width: 768px) {
-    #intro {
-      font-size: .5rem;
-      letter-spacing: normal;
-    }
-  }
