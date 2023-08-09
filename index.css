@@ -390,7 +390,7 @@ table {
     align-items: center;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 375px) and (max-width: 812px) {
     .intro {
       font-size: 1.5rem;
     }
