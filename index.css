@@ -45,7 +45,7 @@ table {
 
 @media only screen and (max-width: 2000px) {
     .intro {
-      font-size: 5px;
+      font-size: 1rem;
       letter-spacing: normal;
     }
   }
